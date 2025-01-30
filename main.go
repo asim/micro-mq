@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/asim/emque/broker"
-	mqclient "github.com/asim/emque/client"
-	mqgrpc "github.com/asim/emque/client/grpc"
-	mqresolver "github.com/asim/emque/client/resolver"
-	mqselector "github.com/asim/emque/client/selector"
-	"github.com/asim/emque/server"
-	grpcsrv "github.com/asim/emque/server/grpc"
-	httpsrv "github.com/asim/emque/server/http"
+	"github.com/asim/mq/broker"
+	mqclient "github.com/asim/mq/client"
+	mqgrpc "github.com/asim/mq/client/grpc"
+	mqresolver "github.com/asim/mq/client/resolver"
+	mqselector "github.com/asim/mq/client/selector"
+	"github.com/asim/mq/server"
+	grpcsrv "github.com/asim/mq/server/grpc"
+	httpsrv "github.com/asim/mq/server/http"
 )
 
 var (

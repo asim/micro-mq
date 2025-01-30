@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/asim/emque/client"
+	"github.com/asim/mq/client"
 )
 
 var (

@@ -1,7 +1,7 @@
 package http
 
 import (
-	"github.com/asim/emque/client"
+	"github.com/asim/mq/client"
 )
 
 // New returns a http client
